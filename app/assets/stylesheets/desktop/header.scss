@@ -9,8 +9,8 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 2px 4px -2px rgba($primary_text_color, .45);
-  background-color: $primary_background_color;
-  padding-top: 3px;
+  background-color: #011f4a;
+  padding-top: 0px;
   .docked & {
     position: fixed;
   }
@@ -27,7 +27,8 @@
     }
   }
   #site-logo {
-    max-height: 40px;
+    max-width: 199px;
+    max-height: 53px;
   }
   .fa-home {
     font-size: 20px;
@@ -42,7 +43,7 @@
   .current-username {
     float: left;
     a {
-      color: $secondary_text_color;
+      color: #ffffff;
       font-size: 14px;
       display:block;
       margin-top: 10px;
@@ -62,7 +63,7 @@
     .icon {
       display: block;
       padding: 3px;
-      color: $nav-button-color;
+      color: #ffffff;
       text-decoration: none;
       cursor: pointer;
       border-top: 1px solid transparent;
@@ -71,8 +72,8 @@
 
 
       &:hover {
-        color: $nav-button-color-hover;
-        background-color: $nav-button-background-color-hover;
+        color: #011f4a;
+        background-color: #ffffff;
         border-top: 1px solid transparent;
         border-left: 1px solid transparent;
         border-right: 1px solid transparent;
@@ -84,7 +85,7 @@
     }
     .active .icon {
       position: relative;
-      color: #7b7b7b;
+      color: #ffffff;
       background-color: $primary_background_color;
       cursor: default;
       border-top: 1px solid $primary_border_color;
